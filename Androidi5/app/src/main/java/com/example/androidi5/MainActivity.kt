@@ -44,9 +44,6 @@ fun CounterView(counterVM: CounterViewModel) {
 
     val counterState by counterVM.counter
 
-    val intContent = GenericClass(120)
-    val stringContent =GenericClass("hello generics")
-
     Column(horizontalAlignment = Alignment.CenterHorizontally,
         verticalArrangement = Arrangement.Center,
         modifier = Modifier.fillMaxSize()
