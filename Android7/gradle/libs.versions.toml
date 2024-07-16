@@ -1,5 +1,6 @@
 [versions]
 agp = "8.5.1"
+browserVersion = "1.8.0"
 firebaseBom = "33.1.2"
 kotlin = "1.9.0"
 coreKtx = "1.13.1"
@@ -14,6 +15,7 @@ materialIconsExtended = "1.6.8"
 navigationCompose = "2.7.7"
 
 [libraries]
+androidx-browser = { module = "androidx.browser:browser", version.ref = "browserVersion" }
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
 androidx-material-icons-extended = { module = "androidx.compose.material:material-icons-extended", version.ref = "materialIconsExtended" }
 androidx-navigation-compose = { module = "androidx.navigation:navigation-compose", version.ref = "navigationCompose" }
